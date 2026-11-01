@@ -16,9 +16,9 @@ export default function Layout() {
                 <strong>Inventaris Laboratorium</strong>
                 <nav className="menu">
                     {MENU.map(({ ke, label }) => (
-                        <navLink key={ke} to={ke} end={ke === '/'}>
+                        <NavLink key={ke} to={ke} end={ke === '/'}>
                             {label}
-                        </navLink>
+                        </NavLink>
                     ))}
                 </nav>
             </header>
