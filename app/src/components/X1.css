@@ -1,0 +1,42 @@
+.menu a {
+    text-decoration: none;
+    color: #000000
+}
+.menu a:hover {
+    text-decoration: underline;
+}
+#judul-koleksi {
+    margin-bottom:1rem;
+}
+#pencarian-koleksi {
+    width: 100%;
+}
+#footer-uts {
+    text-align: center;
+}
+.kepala {
+    background-color: #9b825d;
+    padding: 20px; 
+}
+.kaki {
+     background-color: #9b825d;
+}
+.kartu h3 a {
+  color: #000000;
+  text-decoration: none;
+}
+.kartu h3 a:hover {
+    text-decoration: underline;
+}
+.kartu h3 a:focus-visible {
+  outline: 3px solid #ff9900;
+  outline-offset: 2px;
+}
+button::after {
+  content: " →";
+  opacity: 0;
+  transition: 0.2s;
+}
+button:hover::after {
+  opacity: 1;
+}

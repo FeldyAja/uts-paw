@@ -1,5 +1,6 @@
 import { NavLink, Outlet } from 'react-router-dom'
 import './Layout.css'
+import './X1.css'
 
 const MENU = [
     { ke: '/', label: 'Beranda' },
@@ -25,7 +26,9 @@ export default function Layout() {
             <main className="isi">
                 <Outlet />
             </main>
-            <footer className="kaki">Ujian Tengah Semester Pengembangan Aplikasi Web</footer>
+            <footer id="footer-uts" className="kaki">
+                Ujian Tengah Semester Pengembangan Aplikasi Web
+            </footer>
         </div>
     )
 }
