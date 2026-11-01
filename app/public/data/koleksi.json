@@ -1,10 +1,82 @@
 [
   {
     "id": "1",
-    "judul": "Contoh item pertama",
-    "kategori": "Contoh",
-    "fieldTema1": "ganti sesuai field tema",
-    "fieldTema2": 0,
-    "fieldTema3": "ganti sesuai field tema"
+    "judul": "Arduino Uno",
+    "kategori": "Perangkat IoT",
+    "kodeAlat": "IOT-001",
+    "jumlah": 18,
+    "kondisi": "Baik"
+  },
+  {
+    "id": "2",
+    "judul": "ESP32",
+    "kategori": "Perangkat IoT",
+    "kodeAlat": "IOT-002",
+    "jumlah": 19,
+    "kondisi": "Baik"
+  },
+  {
+    "id": "3",
+    "judul": "Raspberry Pi",
+    "kategori": "Perangkat IoT",
+    "kodeAlat": "IOT-003",
+    "jumlah": 20,
+    "kondisi": "Baik"
+  },
+  {
+    "id": "4",
+    "judul": "PC",
+    "kategori": "Komputer",
+    "kodeAlat": "KPT-001",
+    "jumlah": 40,
+    "kondisi": "Baik"
+  },
+  {
+    "id": "5",
+    "judul": "Monitor",
+    "kategori": "Komputer",
+    "kodeAlat": "KPT-002",
+    "jumlah": 40,
+    "kondisi": "Baik"
+  },
+  {
+    "id": "6",
+    "judul": "Keyboard",
+    "kategori": "Komputer",
+    "kodeAlat": "KPT-003",
+    "jumlah": 40,
+    "kondisi": "Baik"
+  },
+  {
+    "id": "7",
+    "judul": "Kabel UTP Crossover",
+    "kategori": "Kabel",
+    "kodeAlat": "KBL-001",
+    "jumlah": 80,
+    "kondisi": "Baik"
+  },
+  {
+    "id": "8",
+    "judul": "Kabel UTP Straight Through",
+    "kategori": "Kabel",
+    "kodeAlat": "KBL-002",
+    "jumlah": 80,
+    "kondisi": "Baik"
+  },
+  {
+    "id": "9",
+    "judul": "Meja",
+    "kategori": "Perlengkapan Pendukung",
+    "kodeAlat": "PP-001",
+    "jumlah": 45,
+    "kondisi": "Perlu Perbaikan"
+  },
+  {
+    "id": "10",
+    "judul": "Kursi",
+    "kategori": "Perlengkapan Pendukung",
+    "kodeAlat": "PP-002",
+    "jumlah": 45,
+    "kondisi": "Rusak"
   }
 ]
