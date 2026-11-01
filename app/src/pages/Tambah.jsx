@@ -16,7 +16,7 @@ export default function Tambah() {
   const simpan = (e) => {
     e.preventDefault()
     if (form.judul.trim().length < 3) {
-      setGalat('Judul wajib diisi, minimal 3 karakter.')
+      setGalat('Nama alat wajib diisi, minimal 3 karakter.')
       return
     }
     tambah({ ...form, judul: form.judul.trim() })
