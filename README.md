@@ -34,7 +34,9 @@ Deployment: https://FeldyAja.github.io/uts-paw/
 ## Menjalankan secara lokal
 
 cd app
+
 npm install
+
 npm run dev
 
 ## Konsep React yang dipakai
