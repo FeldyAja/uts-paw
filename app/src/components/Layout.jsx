@@ -11,8 +11,8 @@ const MENU = [
 
 export default function Layout() {
     return (
-        <div className= "Kerangka">
-            <header className= "Kepala">
+        <div className= "kerangka">
+            <header className= "kepala">
                 <strong>Inventaris Laboratorium</strong>
                 <nav className="menu">
                     {MENU.map(({ ke, label }) => (
