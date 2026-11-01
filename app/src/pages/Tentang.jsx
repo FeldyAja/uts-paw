@@ -1,4 +1,6 @@
 import mahasiswa from '../../mahasiswa.json'
+import foto from "../../docs/Foto Git.jpg"
+import '../components/X1.css'
 
 const REPO = 'https://github.com/FeldyAja/uts-paw'
 
@@ -6,7 +8,8 @@ export default function Tentang() {
   const { nama, nim, kelas, tema } = mahasiswa
   return (
     <section>
-      <h1>Tentang</h1>
+      <h1 id="judul-statistik">Tentang</h1>
+      <img className="foto-profil" src={foto} alt={`Foto ${nama}`} />
       <dl>
         <dt>Nama</dt>
         <dd>{nama}</dd>

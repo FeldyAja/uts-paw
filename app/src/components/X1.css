@@ -40,3 +40,39 @@ button::after {
 button:hover::after {
   opacity: 1;
 }
+#judul-beranda {
+  padding: 0.75rem 0;
+  border-top: 3px solid #9c8260;
+  border-bottom: 3px solid #9c8260;
+}
+#judul-koleksi {
+  padding: 0.75rem 0;
+  border-top: 3px solid #9c8260;
+  border-bottom: 3px solid #9c8260;
+}
+#judul-tambah {
+  padding: 0.75rem 0;
+  border-top: 3px solid #9c8260;
+  border-bottom: 3px solid #9c8260;
+}
+#judul-statistik {
+  padding: 0.75rem 0;
+  border-top: 3px solid #9c8260;
+  border-bottom: 3px solid #9c8260;
+}
+#judul-tentang {
+  padding: 0.75rem 0;
+  border-top: 3px solid #9c8260;
+  border-bottom: 3px solid #9c8260;
+}
+.foto-profil {
+  display: block;
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+  margin-top: 1rem;
+  border-radius: 50%;
+}
+.foto-profil:hover {
+  opacity: 0.9;
+}

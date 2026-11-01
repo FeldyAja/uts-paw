@@ -3,7 +3,6 @@ import { MemoryRouter } from 'react-router-dom'
 import { expect, test } from 'vitest'
 import App from './App.jsx'
 
-// Contoh test. Tambahkan minimal 5 test buatan sendiri (butir rubrik F1).
 test('rute tidak dikenal menampilkan 404', () => {
   render(
     <MemoryRouter initialEntries={['/tidak-ada']}>
