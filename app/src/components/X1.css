@@ -76,3 +76,7 @@ button:hover::after {
 .foto-profil:hover {
   opacity: 0.9;
 }
+.beranda {
+  text-align: center;
+  font-size: 1.2rem;
+}
