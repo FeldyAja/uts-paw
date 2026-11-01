@@ -1,5 +1,5 @@
 import { NavLink, Outlet } from 'react-router-dom'
-import '.Layout .css'
+import './Layout.css'
 
 const MENU = [
     { ke: '/', label: 'Beranda' },
